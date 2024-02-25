@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    position:relative;
+}
+
+.elam{
+    height: 600px;
+    width: 100%;
+    /*background-color: white; */
+    border-bottom: 2px  solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+
+}
+
+.elam h1{
+    font-size: 6vw;
+    position:relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+
+}
+
+.elam img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all linear 0s;
+    
+}
